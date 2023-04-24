@@ -1,4 +1,4 @@
-FROM golang:1.20.3
+FROM golang:1.20.3-bullseye
 
 # Set environment variables
 ENV PATH="/root/.cargo/bin:${PATH}"

@@ -14,7 +14,7 @@ type ChatConfig struct {
 	Stop              []string // list of tokens to stop on
 	MaxTokens         int      // number of tokens to generate
 	PresencePenalty   float32  // -2.0 to 2.0
-	FrequencyePenalty float32  // -2.0 to 2.0
+	FrequencyPenalty float32  // -2.0 to 2.0
 }
 
 type Chat struct {
